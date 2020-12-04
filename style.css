@@ -149,9 +149,7 @@ nav a {
     margin-top: 25px;
 }
 
-/*------------------------------
-        PRESENTATION
-------------------------------*/
+/*--   PRESENTATION--*/
 
 
 #presentation{
@@ -167,9 +165,7 @@ nav a {
 }
 
 
-/*------------------------------
-        BARRE DE RECHERCHE
-------------------------------*/
+/*-- BARRE DE RECHERCHE--*/
 
 
 .gps-logo{
@@ -236,9 +232,7 @@ input::placeholder {
     font-size: 1.2em;
 }
 
-/*------------------------------
----------LES FILTRES-------------
-------------------------------*/
+/*--LES FILTRES--*/
 
 #filters-display{
     display: flex;
@@ -311,9 +305,7 @@ input::placeholder {
     transform: translate(-50%, -50%); 
 }
 
-/*------------------------------
--INFORMATION SUR LA DESTINATION-
-------------------------------*/
+/*--INFORMATION SUR LA DESTINATION--*/
 
 
 /*CERCLE LOGO INFO*/
@@ -346,9 +338,7 @@ input::placeholder {
     white-space: nowrap;
 }
 
-/*------------------------------
-------AFFICHAGE LOGEMENTS-------
-------------------------------*/
+/*--AFFICHAGE LOGEMENTS--*/
 
 
 #principal-display{
@@ -362,7 +352,7 @@ input::placeholder {
 
 
 
-/*-----LOGEMENTS A GAUCHE------*/
+/*--LOGEMENTS A GAUCHE--*/
 
 #left-col{
     background-color: rgb(242, 242, 242);
@@ -439,7 +429,7 @@ input::placeholder {
     font-size: 1.2rem;
 }
 
-/*-----LOGEMENTS A DROITE TENDANCES------*/
+/*--LOGEMENTS A DROITE TENDANCES--*/
 
 
 #right-col{
@@ -534,9 +524,7 @@ input::placeholder {
 
 
 
-/*------------------------------
-------ACTIVITES-----------------
-------------------------------*/
+/*--ACTIVITES--*/
 
 
 #activites{
@@ -665,9 +653,7 @@ input::placeholder {
 }
 
 
-/*------------------------------
--PIED DE PAGE ET CONTACTS-------
-------------------------------*/
+/*--PIED DE PAGE ET CONTACTS--*/
 
 footer{
     background-color: #F2F2F2;
@@ -699,19 +685,10 @@ footer ul{
     list-style: none;
     padding: 0px;
 }
-/* ---------------------------------
------------------------------------
-------------------------------------
------------------------------------ */
 
-/* ---------------------------
-RESPONSIVE TABLETTE-----------
---------------------------- */
+/*--
+RESPONSIVE TABLETTE-- */
 
-/* ---------------------------------
------------------------------------
-------------------------------------
------------------------------------ */
 
 @media screen and (max-width: 1400px){
 
@@ -732,9 +709,7 @@ RESPONSIVE TABLETTE-----------
     p{
         font-size: 2vh;
     }
-    /*------------------------------
-    ---------HEADER NAVBAR----------
-    ------------------------------*/
+    /*--HEADER NAVBAR--*/
 
     header{
         height: auto;
@@ -861,9 +836,7 @@ RESPONSIVE TABLETTE-----------
     main{
         padding:0;
     }
-    /*------------------------------
-            PRESENTATION
-    ------------------------------*/
+    /*--PRESENTATION--*/
 
 
     #presentation{
@@ -911,9 +884,7 @@ RESPONSIVE TABLETTE-----------
         margin-left: -15px;
     }
 
-    /* ---------------------------------------------
-    -------------------LES FILTRES------------------
-    ----------------------------------------------- */
+    /*--LES FILTRES-- */
     
     #filters-display{
         padding-left: 19px;
@@ -938,9 +909,7 @@ RESPONSIVE TABLETTE-----------
         width: 61px;
     }
 
-    /* ---------------------------------------------
-    -------------------INFOS------------------
-    ----------------------------------------------- */
+    /*--INFOS--- */
 
 
 
@@ -963,9 +932,7 @@ RESPONSIVE TABLETTE-----------
     }
 
 
-    /* ---------------------------------------------
-    -------------------LOGEMENTS TOP TENDANCES------
-    ----------------------------------------------- */
+    /*--LOGEMENTS TOP TENDANCES--*/
 
 
     #right-col{
@@ -1021,9 +988,7 @@ RESPONSIVE TABLETTE-----------
     .star-right{
         bottom: 5px;
     }
-        /* ---------------------------------------------
-    -------------------LOGEMENTS MARSEILLE--------------
-    ----------------------------------------------- */
+    /*--LOGEMENTS MARSEILLE--*/
 
 
     #left-col{
@@ -1047,9 +1012,7 @@ RESPONSIVE TABLETTE-----------
 
     }
 
-    /* ------------------
-    -----------ACTIVITE------
-    -------------------- */
+/*--ACTIVITE--*/
 
 
     #activites{
@@ -1104,9 +1067,7 @@ RESPONSIVE TABLETTE-----------
 
 
 
-/*----------------------------------------------
--------------RESPONSIVE MOBILE------------------
------------------------------------------------*/
+/*--RESPONSIVE MOBILE--*/
 
 
 
@@ -1115,21 +1076,20 @@ RESPONSIVE TABLETTE-----------
 
 @media screen and (max-width: 900px){
   
-    /* -----------------
-    LOGEMENTS TOP TENDANCES
-    ----------------- */
+
+/*--LOGEMENTS TOP TENDANCES--*/
 
 
-    #right-col{
+#right-col{
         flex-direction: column;
         width: 100%;
         height: 680px;
         border-radius: 0px;
 
-    }
+}
 
 
-    #display-column-room-right{
+#display-column-room-right{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -1137,60 +1097,58 @@ RESPONSIVE TABLETTE-----------
         padding: 10px 20px;
         width: 100%;
         height: 100%;
-    }
+}
 
-    .display-room-right img {
+.display-room-right img {
         height: 180px;
-    }
+ }
 
-    .display-room-right{
+.display-room-right{
         width: 48%;
         height: 48%;
-    }
+}
 
-    .miniature-text-right p{
+.miniature-text-right p{
         top: 25px
-    }
+}
 
     .star-right{
         bottom: 10px;
-    }
+}
 
-        /* ---------------------------------------------
-    -------------------LOGEMENTS MARSEILLE--------------
-    ----------------------------------------------- */
+/*--LOGEMENTS MARSEILLE-- */
 
 
-    #left-col{
-        border-radius: 0px;
-        width: 100%;
-        height: 1150px;
-    }
+#left-col{
+    border-radius: 0px;
+    width: 100%;
+     height: 1150px;
+         }
 
-    .miniature{
-        width: 48%;
-        height: 30%;
-    }
+.miniature{
+    width: 48%;
+    height: 30%;
+}
 
-    .miniature-text-grid {
-        margin: 0px 5px 10px 9px;
-    }
+.miniature-text-grid {
+     margin: 0px 5px 10px 9px;
+}
 
-    #more{
+#more{
         font-weight: 800;
     }
 
 
 @media screen and (max-width: 800px){
 
-    #right-col{
+#right-col{
         height: 800px;
     }
 
-    .display-column-room-right{
+.display-column-room-right{
         flex-direction: column;
     }
-    .display-room-right img{
+.display-room-right img{
         width: 45%;
         height: 180px;
         border-top-left-radius: 20px;
@@ -1198,58 +1156,55 @@ RESPONSIVE TABLETTE-----------
         border-bottom-left-radius: 20px;
     }
 
-    .display-room-right a{
+.display-room-right a{
         flex-direction: row;
     }
 
-    .display-room-right {
+.display-room-right {
         width: 100%;
         height: 28%;
     }
 
-    /* ------------------
-    LOGEMENT MARSEILLE---
-    ------------------- */
-    #left-col{
+    /*--LOGEMENT MARSEILLE--*/
+#left-col{
         height: auto;
 
     }
-    .miniature{
+.miniature{
         width: 100%;
         height: 15%
     }
 
-    .miniature-text-right p{
+.miniature-text-right p{
         top: 45px;
         line-height: 1em;
     }
 
-    /* ---------------------
-    ACTIVITE-------------
-    ---------------------- */
+    /*--
+    ACTIVITE--*/
 
-    .mosaic{
+.mosaic{
         flex-direction: column;
     }
 
-    .img-activities{
+.img-activities{
         height: 210px;
     }
 
-    .big-display-link{
+.big-display-link{
         width: 100%;
     }
 
-    .big-display-link-2{
+.big-display-link-2{
         margin-top: 100px;
     }
 
-    .column-activities{
+.column-activities{
         width: 100%;
         height: 550px;
     }
 
-    .column-activities-2{
+.column-activities-2{
         width: 100%;
         height: 575px;
     }
@@ -1257,7 +1212,7 @@ RESPONSIVE TABLETTE-----------
 }
 
 @media screen and (max-width: 428px){
-    .miniature-text-right p {
+.miniature-text-right p {
         top: 58px;}
 
     }
